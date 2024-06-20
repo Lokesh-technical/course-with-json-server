@@ -20,6 +20,7 @@
         "dest": "json-server/server.js"
       },
       {
+        
         "src": "/(.*)",
         "dest": "/index.html"
       }
