@@ -101,7 +101,7 @@ function App() {
       logoutTimer = setTimeout(() => {
         dispatch(logout());
         navigate('/login');
-      }, 0.5 * 60 * 1000); 
+      }, 5 * 60 * 1000); 
     };
 
     const activityEvents = ['mousemove', 'keydown', 'scroll'];

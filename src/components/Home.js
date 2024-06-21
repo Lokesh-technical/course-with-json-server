@@ -1699,8 +1699,8 @@ const Home = () => {
       ) : (
         <>
           <Header onAddCourse={openAddCourseModal} />
-          <div className="container mx-auto">
-            <div className='flex justify-between align-middle'>
+          <div className="container mx-auto ">
+            <div className='flex justify-between align-middle mx-2'>
               <h1 className="text-3xl font-bold my-5">Course List</h1>
               <input
                 type="text"
@@ -1710,12 +1710,12 @@ const Home = () => {
                 className="mb-4 mt-2 p-2 border border-gray-500 rounded"
               />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:mx-2">
               {currentUser.role === "instructor" ? (
                 currentCourses
                   .filter(course => course.userid === currentUser.id)
                   .map(course => (
-                    <Card
+                    <Card 
                       key={course.id}
                       id={course.id}
                       title={course.title}
