@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteCourse } from "../features/courseSlice";
+import { deleteCourse } from "../features/courseSlice.js";
 
 const Modal2 = ({ id, closeModal }) => {
     const dispatch = useDispatch();

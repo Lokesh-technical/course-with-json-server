@@ -231,7 +231,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { logout } from '../../features/authSlice';
+import { logout } from '../../features/authSlice.js';
 
 const Header = ({ onAddCourse }) => {
   const dispatch = useDispatch();

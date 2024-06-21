@@ -1550,14 +1550,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchCourses, deleteCourse, editCourse, addCourse, updateCourseStudents } from '../features/courseSlice';
-import { fetchUsers } from '../features/authSlice';
-import Header from './Header/Header';
-import Card from './card'; // Assuming Card component name
-import Modal from './modal'; // Assuming Modal component name
-import SelectStudentsModal from './Modals/SelectStudentsModal';
-import DeleteModal from './Modals/DeleteModal'; // Import DeleteModal component
-import Loader from './Loader'; // Import Loader component
+import { fetchCourses, deleteCourse, editCourse, addCourse, updateCourseStudents } from '../features/courseSlice.js';
+import { fetchUsers } from '../features/authSlice.js';
+import Header from './Header/Header.js';
+import Card from './card.js'; // Assuming Card component name
+import Modal from './modal.js'; // Assuming Modal component name
+import SelectStudentsModal from './Modals/SelectStudentsModal.js';
+import DeleteModal from './Modals/DeleteModal.js'; // Import DeleteModal component
+import Loader from './Loader.js'; // Import Loader component
 
 const Home = () => {
   const dispatch = useDispatch();

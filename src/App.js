@@ -84,9 +84,9 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, useNavigate } from 'react-router-dom';
 import { useRoutes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import routes from './routes/route'; 
+import routes from './routes/route.js'; 
 import './App.css';
-import { logout } from './features/authSlice'; 
+import { logout } from './features/authSlice.js'; 
 
 function App() {
   const dispatch = useDispatch();

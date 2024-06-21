@@ -139,9 +139,9 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import "./SignupForm.css";
-import Button from '../Button';
+import Button from '../Button.js';
 import { useDispatch } from 'react-redux';
-import { addUser } from '../../features/authSlice';
+import { addUser } from '../../features/authSlice.js';
 import { useNavigate } from 'react-router-dom';
 
 const SignupForm = () => {

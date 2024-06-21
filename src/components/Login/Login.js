@@ -345,7 +345,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginUser } from '../../features/authSlice';
+import { loginUser } from '../../features/authSlice.js';
 import { useNavigate } from 'react-router-dom';
 import { RiEyeFill, RiEyeOffFill } from 'react-icons/ri'; 
 import './Login.css'; 

@@ -184,11 +184,11 @@
 
 
 import React from 'react';
-import Login from '../components/Login/Login';
-import Home from '../components/Home';
-import Readmore from '../components/Readmore';
-import SignupForm from '../components/SignupForm/SignupForm';
-import ProtectedRoute from './ProtectedRoute';
+import Login from '../components/Login/Login.js';
+import Home from '../components/Home.js';
+import Readmore from '../components/Readmore.js';
+import SignupForm from '../components/SignupForm/SignupForm.js';
+import ProtectedRoute from './ProtectedRoute.js';
 
 const routes = [
   {

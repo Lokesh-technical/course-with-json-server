@@ -65,8 +65,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
-import App from './App';
-import { store } from './store/store'; // Ensure the path to store is correct
+import App from './App.js';
+import { store } from './store/store.js'; // Ensure the path to store is correct
 import './index.css';
 
 ReactDOM.render(

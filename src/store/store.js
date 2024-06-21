@@ -50,8 +50,8 @@
 
 import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers } from 'redux';
-import authReducer from '../features/authSlice';
-import courseReducer from '../features/courseSlice';
+import authReducer from '../features/authSlice.js';
+import courseReducer from '../features/courseSlice.js';
 
 const rootReducer = combineReducers({
   auth: authReducer,
